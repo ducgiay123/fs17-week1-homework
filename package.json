@@ -6,7 +6,9 @@
   "author": "andrea <ngocanhhsgs@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "compile": "sass src/styles/style.scss:src/style.css",
-    "compile:watch": "sass --watch src/styles/style.scss:src/style.css"
+    "watch:sass": "sass --watch src/styles/style.scss src/styles/index.css"
+  },
+  "dependencies": {
+    "node-sass": "^9.0.0"
   }
 }

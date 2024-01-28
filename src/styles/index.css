@@ -1,0 +1,148 @@
+.btn.sign-up-btn {
+  background-color: #3498db;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 30px;
+  text-decoration: none;
+  display: inline-block;
+}
+.btn.sign-up-btn:hover {
+  background-color: #217dbb;
+}
+.btn.reg-up-btn {
+  background-color: #2ecc71;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 0;
+  text-decoration: none;
+  display: inline-block;
+}
+.btn.reg-up-btn:hover {
+  background-color: #25a25a;
+}
+
+body {
+  margin: 0px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  height: 70px;
+}
+header .body {
+  display: flex;
+  align-items: center;
+}
+header .body nav ul {
+  list-style-type: none;
+  color: white;
+}
+header .body nav ul li {
+  display: inline;
+  margin-right: 10px;
+}
+header .body nav ul li a {
+  color: white;
+  font-weight: bold;
+}
+header .action {
+  margin-right: 40px;
+  display: flex;
+  align-items: center;
+}
+
+.main-background {
+  width: 100%;
+  object-fit: cover;
+}
+
+.main-content .content-block .writting {
+  font-family: "Mukta", sans-serif;
+  top: 30%;
+  left: 3%;
+  position: absolute;
+  width: 40%;
+}
+.main-content .content-block .writting h2 {
+  color: white;
+  margin: 0px;
+}
+.main-content .content-block .writting h1 {
+  font-size: 4em;
+  font-weight: 700;
+  margin: 20px 0px 20px 0px;
+}
+.main-content .content-block .writting p {
+  font-size: 20px;
+}
+.main-content .media-block {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  padding: 0px 2% 100px 2%;
+}
+.main-content .media-block h1 {
+  font-family: "Mukta", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  grid-column: 2/span 1;
+  grid-row: 1/span 1;
+}
+.main-content .media-block .hero-summary {
+  font-family: "Be Vietnam Pro", sans-serif;
+  grid-column: span 3;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+.main-content .media-block .hero-summary .item {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+}
+.main-content .media-block .hero-summary .item img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+footer {
+  background-color: #397dad;
+}
+footer .footer-content {
+  padding: 0px 2% 0px 2%;
+  display: flex;
+  justify-content: space-between;
+}
+footer .footer-content .icon-column {
+  display: flex;
+  align-items: center;
+}
+footer .footer-content .link-column .list {
+  list-style: none;
+}
+footer .footer-content .link-column .list li a {
+  color: black;
+  text-decoration: none;
+}
+
+.copyright {
+  background-color: black;
+}
+.copyright p {
+  margin: 0px;
+  color: #ddd;
+  display: flex;
+  justify-content: center;
+}
+
+/*# sourceMappingURL=index.css.map */
